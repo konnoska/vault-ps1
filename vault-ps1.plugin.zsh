@@ -127,7 +127,7 @@ _vault_ps1_color_bg() {
     elif [[ $VAULT_PS1_BG_CODE -ge 0 ]] && [[ $VAULT_PS1_BG_CODE -le 256 ]]; then
       VAULT_PS1_BG_CODE="\033[48;5;${VAULT_PS1_BG_CODE}m"
     else
-      AVULT_PS1_BG_CODE="${DEFAULT_BG}"
+      VAULT_PS1_BG_CODE="${DEFAULT_BG}"
     fi
   fi
   echo ${OPEN_ESC}${VAULT_PS1_BG_CODE}${CLOSE_ESC}
