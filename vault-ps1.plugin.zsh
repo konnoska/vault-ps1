@@ -36,7 +36,7 @@ VAULT_PS1_SYMBOL_COLOR="${VAULT_PS1_SYMBOL_COLOR-blue}"
 VAULT_PS1_ADDR_COLOR="${VAULT_PS1_NS_COLOR-green}"
 VAULT_PS1_BG_COLOR="${VAULT_PS1_BG_COLOR}"
 
-VAULT_PS1_DISABLE_PATH="${HOME}/.vault/vault-ps1/disabled"
+VAULT_PS1_DISABLE_PATH="${HOME}/.vault-ps1/disabled"
 
 # Determine our shell
 if [ "${ZSH_VERSION-}" ]; then
