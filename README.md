@@ -29,7 +29,7 @@ PS1='[\u@\h \W $(vault_ps1)]\$ '
 
 If you want to stop showing vault address on your prompt string temporarily
 run `vaultoff`. To disable the prompt for all shell sessions, run `vaultoff -g`.
-You can enable it again in the current shell by running `vaulteon`, and globally
+You can enable it again in the current shell by running `vaulton`, and globally
 with `vaulton -g`.
 
 ```
